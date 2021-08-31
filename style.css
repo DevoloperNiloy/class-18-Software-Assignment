@@ -1,0 +1,305 @@
+.heder{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu{
+    
+    
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+}
+/* banner section start */
+.banner{
+    background-image: url(./kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 320px;
+    text-align: center;
+    color: white;
+}
+.banner-button .google {
+	
+	margin-right: -8px;
+	transform: translate(10px,20px);
+	
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 30px;
+}
+.banner-text span{
+    font-size: 25px;
+    margin-right:5px;
+}
+.banner-text a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 17px 35px;
+    background-color: #fff;
+    color: #7D7D7D;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s;
+    font-size: 25px;
+}
+.banner-text a:hover{
+    background-color: #E79232;
+    color: white;
+}
+/* banner section end */
+img{
+    max-width: 100%;
+}
+/* service section start */
+.service{
+    background-color: #f7f9ff;
+    padding: 50px;
+}
+.service h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.ser-text{
+    margin-bottom: 50px;
+}
+.priceing{
+    
+    background-color: #fff;
+    
+
+}
+.priceing-item{
+    padding: 30px;
+    border-bottom: 1px solid#ddd;
+    transition: .4s;
+}
+.p-contint{
+    padding: 30px;
+}
+.priceing-item h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.priceing-item h1{
+    font-weight: 900;
+    background-color: rgba(180, 178, 178, 0.356);
+    padding: 10px;
+    transition: .4s;
+}
+.priceing-item sub{
+    font-size: 20px;
+}
+.priceing-item h5{
+    padding: 15px;
+}
+.priceing:hover .priceing-item{
+    background-color: #E79232;
+    color: white;
+}
+.priceing:hover h1{
+    background: #E79232;
+    color: white;
+}
+.priceing:hover .p-button a{
+    background: #E79232;
+    color: white;
+}
+.priceing-item p{}
+
+.p-contint ul{
+    list-style: none;
+}
+.p-contint ul li{
+    padding: 15px 0;
+}
+.p-contint ul li span{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(238, 171, 15);
+    width: 50px;
+}
+.p-button .default-btn{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(107, 102, 102);
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px 1px #404b7c54;
+}
+
+.team{
+    height: 650px;
+}
+
+.team-name{
+    
+    border: 7px double #E89433;
+}
+.team-name h3{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.team-name h4{
+    margin-left: 20px;
+    color: #7D7D7D;
+    padding-bottom: 20px;
+}
+.news{
+    background-color: #F5F5F5;
+    height: 350px;
+    padding-top: 70px;
+}
+.email1{
+    width: 400px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #AA972C;
+    margin-bottom: 10px;
+
+}
+.subscribe{
+    padding: 8px 45px;
+    border-radius: 10px;
+    background-color: #AA972C;
+    color: white;
+}
+.subscribe:hover{
+    background-color: #fff;
+    color: rgb(243, 193, 84);
+    border: 1px solid #AA972C;
+}
+
+.img-sec img{
+    margin-left: 35px;
+}
+.text-sect {
+	margin-top: 20px;
+	font-size: 18px;
+	margin-left: 40px;
+}
+.text-sect h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.user{
+    background-color: #F5F5F5;
+    height:800px;
+    padding-top: 30px;
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    height: 520px;
+    
+}
+.lorem{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.555);
+    padding: 40px;
+    font-size: 25px;
+    position: relative;
+}
+.lorem::after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+}
+.lorem span{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.212);
+    position: absolute;
+    top: 1px;
+    left: 20px;
+}
+.user-div p{
+    font-size: 22px;
+    margin-right:0px;
+}
+.user-img{
+    margin-left: 60px;
+    margin-top: 35px;
+    border: 10px solid #AA972C;
+}
+.user-img img{
+    max-width:100%;
+}
+.user-text{
+    margin-top: 50px;
+    
+}
+.contact{
+    
+    text-align: center;
+    height: 550px;
+}
+.contact h3{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.contact-from{}
+.email{
+    width: 630px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #AA972C;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.name{
+    width: 305px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #AA972C;
+}
+.phone{
+    width: 305px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #AA972C;
+}
+.mess{
+    border-radius: 10px;
+    border: 1px solid #AA972C;
+    margin-top: 15px;
+    width: 625px;
+    
+    
+}
+.sent{
+    padding: 15px 80px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #AA972C;
+    color: white;
+}
+.sent:hover{
+    background-color: #fff;
+    color: rgb(243, 193, 84);
+    border: 1px solid #AA972C;
+}
